@@ -1,0 +1,11 @@
+pyg = 'ay'
+
+original = raw_input('Enter an English word to have it translated to Pig Latin:')
+
+if len(original) > 0 and original.isalpha():
+    word = original.lower()
+    first = word[0]
+    new_word = word[1:len(word)] + '%s%s' % (first, pyg)
+    print original + "in Pig Latin is:" + new_word
+else:
+    print "Sorry, this is not a valid word."

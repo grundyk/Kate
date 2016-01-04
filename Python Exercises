@@ -1,0 +1,17 @@
+# Use boolean expressions as appropriate on the lines below!
+
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
+
+# Make me true!
+bool_two = (2 != 8) or "Kate" == "Sam"
+
+# Make me false!
+bool_three = not not False
+
+# Make me true!
+kate = "Kate"
+bool_four = ((3 >= 1) or (7 == 10)) and kate.upper() == "KATE"
+
+# Make me true!
+bool_five = 
