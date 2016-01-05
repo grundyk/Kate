@@ -1,0 +1,5 @@
+def anti_vowel(text):
+    vowel_list = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+    for vowel in vowel_list:
+        text = text.replace(vowel, '')
+    return text

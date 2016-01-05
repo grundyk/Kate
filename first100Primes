@@ -1,0 +1,10 @@
+prime_list = []
+def primecalc(x):
+    if x < 2:
+        return False
+    if x == 2:
+        prime_list.append(x)
+    for i in range(2:100):
+        if x % i == 0:
+            return False
+    prime_list.append(x)
